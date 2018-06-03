@@ -10,6 +10,8 @@ namespace Parser
     {
         static void Main(string[] args)
         {
+            ParserCreator p = new ParserCreator();
+            p.parseBtn_Click();
         }
     }
 }
